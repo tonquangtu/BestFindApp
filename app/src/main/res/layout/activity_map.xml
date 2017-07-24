@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.mrt.breakfast.activities.MapActivity">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+
+        android:id="@+id/map"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        map:cameraBearing="112.5"
+
+        map:cameraTargetLat="-33.796923"
+
+        map:cameraTargetLng="150.922433"
+
+        map:cameraTilt="30"
+
+        map:cameraZoom="13"
+
+        map:mapType="normal"
+
+        map:uiCompass="false"
+
+        map:uiRotateGestures="true"
+
+        map:uiScrollGestures="true"
+
+        map:uiTiltGestures="true"
+
+        map:uiZoomControls="false"
+
+        map:uiZoomGestures="true"/>
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="48dp">
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/address"
+            android:text="Các sản phẩm gần bạn"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="16sp"
+            android:textStyle="italic|bold"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

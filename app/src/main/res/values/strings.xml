@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">BestFind</string>
+    <string name="app_name">breakfast</string>
+
+    <string name="text_search">Search</string>
+    <string name="internal_storage">Choose FIle</string>
+    <string-array name="categories">
+        <item>Chọn loại sản phẩm</item>
+        <item>Áo sơ mi nam</item>
+        <item>Áo khoác nam</item>
+        <item>Áo nữ</item>
+        <item>Váy</item>
+        <item>Quần nữ</item>
+        <item>Quần jeans nam</item>
+        <item>Quần shorts nam</item>
+        <item>Giày nữ</item>
+        <item>Giày nam</item>
+        <item>Túi xách</item>
+        <item>Ví tiền</item>
+    </string-array>
 </resources>
